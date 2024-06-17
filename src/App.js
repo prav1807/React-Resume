@@ -1,12 +1,12 @@
-import React from 'react';
-
-import Greeting from './profilePage';
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
-   <Greeting />
+    <div className="App">
+      <NavBar />
+    </div>
   );
 }
 
